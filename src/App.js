@@ -1,6 +1,5 @@
 import React from 'react';
-import Footer from './components/Footer';
-import Main from './components/Main';
+import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 
 
@@ -8,8 +7,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Main/>
-      <Footer/>
+      <Sidebar/>
     </div>
   );
 }
